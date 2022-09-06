@@ -3,7 +3,7 @@ Attendees:
 - Ben Wheatley
 - Chris Ertel
 - Jason Johnson
-- Alex McClain
+- Alex McLain
 - Ed Bond
 - Jason Axelson
 
@@ -47,14 +47,20 @@ What we want:
   - polishing and approachability
     - We should do a LiveBook
     - fly.io hosted livebook
-- Alex McClain
+- Alex McLain
   - Be able to create a UI that doesn't suck (IOT use case)
     - IOT UIs universally suck
   - Hardware availability for Scenic
+  - Integration testing / end-to-end testing with Scenic
+    - Ensure a button activates the right hardware components
+    - Ensure the correct thing is displayed on the screen
 - Ed Bond
   - Developer experience for getting started
   - cross-compiling drivers
     - here are common things that will go wrong
+      - target cross compile chain requires deeper knowledge
+      - When you [build](https://github.com/boydm/scenic_driver_glfw) with a target OS architecture, which drivers are needed where and why. 
+      - When you have that driver as a nested depedency, it can't easily build for targets like RISC processors 
 - Jason Axelson
   - Get 0.11 released and create some guides
   - specs right now are functions which makes then hard to inspect
