@@ -8,6 +8,7 @@ Attendees:
 - Jason Axelson
 
 Location: ElixirConf 2022 Lunch
+Date: 2022-09-02
 
 Governance
 - Are we aligned with Scenic's general direction?
